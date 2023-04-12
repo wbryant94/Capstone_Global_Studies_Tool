@@ -1,0 +1,32 @@
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 100%;
+    width: auto;
+}
+
+.message { 
+    text-align: center;
+}
+
+
+.form { 
+    margin: 5;
+    align-items: center;
+    padding-top: 5px;
+    box-shadow: 0 3px 5px 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+input { 
+    width: auto;
+    height: auto;
+}
+
+p {
+    color: red;
+}

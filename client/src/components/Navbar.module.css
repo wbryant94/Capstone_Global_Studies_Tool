@@ -1,0 +1,79 @@
+.container {
+font-family: 'Roboto', sans-serif;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white);
+  border: 2px black solid;
+  border-radius: 5px;
+  height: auto;
+}
+
+.logo {
+  padding: 20px;
+  width: 120px;
+  display: flex;
+}
+
+.adminTools { 
+  justify-content: center;
+  display: flex;
+  flex-wrap: "true";
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 5px;
+} 
+
+.link {
+    text-decoration: none; 
+    color: var(--grey);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px;
+    transition: transform .5s ease-in-out;
+    margin-right: 20px;
+  }
+
+  .link:hover{
+    transform: scale(1.1);
+    background-color: var(--blue);
+    color: black;
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    Card{
+      font-size: 10px;
+      padding: 5px;
+    }
+
+    img { 
+      height: auto;
+      width: auto;
+    }
+
+    .title { 
+      display: flex;
+      font-size: 12px;
+      padding: 5px;
+    }
+  }
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+span {
+  font-size: 15px;
+  cursor: pointer;
+  margin: 2px;
+  padding: 5px;
+}

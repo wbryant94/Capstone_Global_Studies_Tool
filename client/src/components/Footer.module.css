@@ -1,0 +1,29 @@
+
+.footer {
+  padding: 20px;
+  background-color: var(--white);
+  justify-content: center;
+  display:flex;
+  align-items:center;
+  font-family: 'Roboto', sans-serif;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+.message {
+display: flex;
+padding: 10px;
+font-size: 15px;
+justify-content: center;
+border: 2px solid black;
+border-radius: 5px;
+}
+
+.footerImage {
+  padding: 20px;
+  height: 100px;
+  transition: transform 2s ease-in-out;
+}
+.footerImage:hover{
+  transform: rotate(360deg);
+}
